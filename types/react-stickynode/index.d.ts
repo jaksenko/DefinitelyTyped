@@ -67,6 +67,12 @@ declare namespace Sticky {
          * active ('active' by default).
          */
         activeClass?: string | undefined;
+        
+        /**
+         * Class name to be applied to the inner element when the sticky
+         * state is active ('' by default).
+         */
+        innerActiveClass?: string | undefined;
 
         /**
          * Class name to be applied to the inner element ('' by default).
